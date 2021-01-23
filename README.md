@@ -1,5 +1,9 @@
 # Scripts and other stuff
 
-My bash_aliases
 
-script/mycrt to find and show active certs for a domain
+dotfiles\
+	.bash_aliases
+
+script\
+	mycrt # To finde active certs on a domain, using curl and jq
+ 
