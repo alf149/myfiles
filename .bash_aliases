@@ -55,7 +55,7 @@ function gacpd() {
     then
         git add .
         git commit -m "small fixes"
-        git push origin master
+        git push origin main
     else
         echo -e "\n Quit."
     fi
