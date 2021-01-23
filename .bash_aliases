@@ -1,7 +1,7 @@
 # LS
 alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
-alias ls='ls --color=auto'
+alias ls='ls -ltrah --color=auto'
 alias root='sudo -u root -i'
 alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
@@ -34,7 +34,7 @@ alias meminfo='free -m -l -t'
 # Filesystem diskspace usage
 alias dus='df -h'
 
-#WLS kun på windows
+# WSL kun på windows
 alias exp='explorer.exe .'
 
 # Tid
