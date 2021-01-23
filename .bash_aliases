@@ -44,3 +44,19 @@ alias nowdate='date +"%d-%m-%Y"'
 
 HISTTIMEFORMAT="%d/%m/%y %T: "
 
+# GIT
+# git add commit push default 
+## usage
+# gacpd
+function gacpd() {
+    echo "This will add, commit and push all the files to the master branch with the comment 'small fixes'"
+    read -p "Do you want to proceed? y/n " -n 1 -r
+    if [[ "$REPLY" =~ ^([yY][eE][sS]|[yY])+$ ]]
+    then
+        git add .
+        git commit -m "small fixes"
+        git push origin master
+    else
+        echo -e "\n Quit."
+    fi
+}
