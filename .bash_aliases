@@ -14,6 +14,7 @@ alias cls='clear'
 #dir
 alias ..='cd ..'
 alias home='cd ~'
+alias cd..='cd ..'
 
 #Grep
 alias gh='history|grep'
