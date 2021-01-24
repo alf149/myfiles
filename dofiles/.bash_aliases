@@ -1,7 +1,6 @@
 # LS
-alias l.='ls -d .* --color=auto'
-alias ll='ls -l --color=auto'
-alias ls='ls -ltrah --color=auto'
+alias ls='ls -l --color=auto'
+alias ll='ls -ltrah --color=auto'
 alias root='sudo -u root -i'
 alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
