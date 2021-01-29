@@ -1,0 +1,12 @@
+"issuer_ca_id","issuer_name","id","common_name","name_value","entry_timestamp","not_before","not_after","serial_number"
+183267,"C=US, O=Let's Encrypt, CN=R3",3827115076,"status.amfelt.dk","status.amfelt.dk","2020-12-25T05:24:58.683","2020-12-25T04:24:58","2021-03-25T04:24:58","03bfb163275e07f80acadb40e5f511bb4158"
+183267,"C=US, O=Let's Encrypt, CN=R3",3804948234,"amfelt.dk","amfelt.dk
+fun.amfelt.dk
+home.amfelt.dk
+mta-sts.amfelt.dk
+tand.amfelt.dk
+tandklinikken.amfelt.dk
+tandteknik.amfelt.dk
+www.amfelt.dk","2020-12-20T01:13:49.558","2020-12-20T00:13:49","2021-03-20T00:13:49","043fe8a3c80eb4e48c042611c2d1ba27396c"
+157938,"C=US, O=""Cloudflare, Inc."", CN=Cloudflare Inc ECC CA-3",3163173978,"sni.cloudflaressl.com","*.amfelt.dk
+amfelt.dk","2020-07-30T01:25:49.13","2020-07-30T00:00:00","2021-07-30T12:00:00","08dff35665d5d36e246fa122512b5293"
