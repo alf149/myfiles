@@ -1,3 +1,11 @@
+# VPN if instaled
+alias vpnstart='sudo systemctl start wg-quick@wg-client0.service'
+alias vpnstart53='sudo systemctl start wg-quick@wg-client53.service'
+alias vpnstop='sudo systemctl stop wg-quick@wg-client0.service'
+alias vpnstop53='sudo systemctl stop wg-quick@wg-client53.service'
+alias vpnstatus='sudo systemctl status wg-quick@wg-client0.service'
+alias vpnstatus53='sudo systemctl status wg-quick@wg-client53.service'
+
 # LS
 alias ls='ls -l --color=auto'
 alias ll='ls -ltrah --color=auto'
@@ -5,6 +13,7 @@ alias root='sudo -u root -i'
 alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
 # Update
+alias updateall='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh && sudo flatpak update -y'
 alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
 
 #screen 
