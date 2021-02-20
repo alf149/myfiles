@@ -31,6 +31,8 @@ alias h='history 100'
 #Network
 ##Ports
 alias ports='sudo netstat -tulanp'
+alias locip='hostname -I'
+alias pubip='echo $(curl -s ipinfo.io/ip)'
 
 ## ssh
 alias sshstart='eval $(ssh-agent) && ssh-add'
