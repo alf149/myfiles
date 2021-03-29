@@ -1,0 +1,6 @@
+[pi_home]
+192.168.0.126
+192.168.0.160
+
+[pi_home:vars]
+ansible_ssh_user=pi
