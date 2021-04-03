@@ -46,6 +46,7 @@ alias dus='df -h'
 
 # WSL kun på windows
 alias exp='explorer.exe .'
+alias fcode='flatpak run com.visualstudio.code' 
 
 # Tid
 alias now='date +"%T"'
